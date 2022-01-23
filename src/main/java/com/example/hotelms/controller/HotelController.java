@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
-
+@CrossOrigin(origins = "https://hotelmsplus.herokuapp.com/")
 @RestController
 @RequestMapping(path ="api/hotel")
 public class HotelController {
